@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Provis Demo</title>
+        <link rel="stylesheet" href="mystyle.css">
+            
+            <script>
+                // JavaScript function to redirect to another page
+                function goToNextPage() {
+                    window.location.href = "/Users/terel.blackwell/Desktop/HackUMBC2024/nextpage.html";  // The target page
+                }
+            </script>
+    </head>
+
+<body>
+
+    
+<h1> Provis Demo </h1>
+    <p>
+    Provis Demo
+    // Display Text Box for Amino Acid Sequences
+     <form action="/upload" method="POST" enctype="multipart/form-data">
+         <label for="fileUpload">Choose a file containing your amino acid sequence (.pdb, .fasta):</label>
+         <input class="acid_file" type="file" id="fileUpload" name="fileUpload" accept="x.pdb, .fasta">
+         <br><br>
+         <button type="submit">Upload File</button>
+     </form>
+    </p>
+    
+    <p>
+        // Display Text Box for Amino Acid Sequences
+        <form action="/action_page.php" target="_self">
+        <div class="aacid">
+        <label for="aafile">Amino Acid Sequence:</label><br>
+        <input class="acid_sequence" type="text" id="/Users/terel.blackwell/Desktop/HackUMBC2024/nextpage.html" name="/Users/terel.blackwell/Desktop/HackUMBC2024/nextpage.html"><br>
+        </div>
+        <button onclick="goToNextPage()">Submit</button>
+       </form>
+    </p>
+
+</body>
+    
+</html>

@@ -1,0 +1,36 @@
+body {
+    background-image: url('/Users/terel.blackwell/Desktop/HackUMBC2024/amino_acids_food.webp'); /* Path to your image */
+    background-size: cover; /* Ensures the image covers the entire page */
+    background-position: center; /* Centers the background image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    height: 100vh; /* Sets the height of the body to the full viewport */
+    margin: 0; /* Removes default margin */
+
+}
+
+h1 {
+ color: crimson;
+ background-color: grey;
+ text-align: center;
+}
+
+p {
+    text-align: center;
+    background-color: grey;
+}
+
+input.acid_file {
+    text-align: center;
+    height: auto;
+    width: auto;
+}
+
+input.acid_sequence {
+    text-align: center;
+    height: 300px;
+    width: 100%;
+}
+
+label {
+    background-color: grey;
+}
